@@ -13,7 +13,10 @@ public class Githubactions {
     public String welcome() {
         return "TheCoders TV";
     }
-
+    @GetMapping("/welcome1")
+    public String welcome1() {
+        return "TheCoders TV 1";
+    }
     public static void main(String[] args) {
         SpringApplication.run(Githubactions.class, args);
     }
