@@ -1,4 +1,4 @@
-package com.learning.githubactionscicd;
+package com.learning.githubactions;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
