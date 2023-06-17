@@ -15,7 +15,7 @@ public class Githubactions {
     }
     @GetMapping("/welcome1")
     public String welcome1() {
-        return "TheCoders TV1";
+        return "TheCoders TV12";
     }
     public static void main(String[] args) {
         SpringApplication.run(Githubactions.class, args);
